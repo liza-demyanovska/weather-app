@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(-90deg, blue, pink);
+}
+
+#root {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    padding-top: 100px;
+    color: white;
+    display: grid;
+    grid-template-rows: minmax(160px, 1fr) minmax(160px, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+    justify-items: center;
+    align-items: center;
+}
+
+.item {
+    text-align: center;
+}
+
+.getCityName input {
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.getCityName button {
+    margin-left: 5px;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    background: #F36ED0;
+    color: white;
+    padding: 6px;
+}
+
+.getCityName button:hover {
+    cursor: pointer;
+    background: white;
+    color: #F36ED0;
+    transition: all 0.3s ease;
+}
+
+.getCityName button:focus {
+    outline: none;
+}
